@@ -5,19 +5,19 @@ contract Anac {
     address public dono; // É criada a variável do endereço do dono
 
     modifier onlyOwner() {
-        require(msg.sender == dono);
+        require(msg.sender == dono); // requer o endereço do dono para alterar o que tem onlyOwner
         _;
     }
 
      constructor() public {
-        dono = msg.sender; 
+        dono = msg.sender; // coloca o dono como o emissor do contrato
     }
 
     function setIdade(uint novaIdade) public onlyOwner {
-    idade = novaIdade;
+    idade = novaIdade; // altera a idade conforme mudança pelo dono
     }
 
     function getIdade() constant public returns (uint) {
-    return idade;
+    return idade; // retorna nova idade
     }
 }
