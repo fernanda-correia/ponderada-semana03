@@ -6,9 +6,7 @@ Quando o endereço corresponde ao endereço do dono, o compilador permite a edi�
 
 No entanto, quando o endereço é diferente, o compilador não permite a alteração da idade em setIdade
 
-<div align="center">
-<img src="../assets/foto2.png">
-</div>
+mostrado em sala de aula, pois o remix foi sobrecarregado e deixou de fazero deploy
 
 Prompts utilizados no chatgpt:
 
